@@ -1,0 +1,22 @@
+{
+    "name": "felix_noir/alchemy",
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "felix noir",
+            "email": "felix@lesnoirs.com"
+        }
+    ],
+    "autoload": {
+	"psr-4" : {
+		"App\\" : "app",
+		"Data\\" : "data",
+		"Tests\\" : "tests"
+		}
+	},
+    "minimum-stability": "stable",
+    "require": {
+    }
+}

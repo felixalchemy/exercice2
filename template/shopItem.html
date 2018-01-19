@@ -1,0 +1,18 @@
+	<li class="list-group-item">
+		<form>
+			<div class="form-row">
+				<div class="col-1 col-sm-6">
+					<input type="text" readonly class="form-control-plaintext" value="{{productLabel}}">
+				</div>
+				<div class="col"></div>
+				<div class="col-1 col-sm-1">
+					<input type="text" readonly class="form-control-plaintext" value="{{productPrice}} €">
+				</div>
+				<div class="input-group col-sm-2">
+					<button type="button" class="btn btn-primary btnless" data-id="{{productId}}">-</button>
+					<input type="text" class="form-control input-number value amount" style="text-align: center;" id="_{{productId}}" data-id="{{productId}}" value="{{productAmount}}">
+					<button type="button" class="btn btn-primary btnmore" data-id="{{productId}}">+</button>
+				</div>
+			</div>
+		</form>
+	</li>
