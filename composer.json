@@ -12,8 +12,22 @@
     "autoload": {
 	"psr-4" : {
 		"App\\" : "app",
+		"App\\Authentication\\" : "app/authentication",
+		"App\\Basket\\" : "app/basket",
+		"App\\Page\\" : "app/page",
+		"App\\Page\\Authentication\\" : "app/page/authentication",
+		"App\\Page\\CheckOut\\" : "app/page/checkout",
+		"App\\Page\\Shop\\" : "app/page/shop",
+		"App\\Products\\" : "app/products",
+		"App\\Router\\" : "app/router",
+		"App\\Users\\" : "app/users",
 		"Data\\" : "data",
-		"Tests\\" : "tests"
+		"Tests\\" : "tests",
+		"Tests\\App\\" : "tests/app",
+		"Tests\\App\\Basket\\" : "tests/app/basket",
+		"Tests\\App\\Products\\" : "tests/app/products",
+		"Tests\\App\\Users\\" : "tests/app/users"
+		
 		}
 	},
     "minimum-stability": "stable",
